@@ -9,6 +9,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nhydrazine.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
+lsi: false
+safe: true
+source: /Users/nic/Sites/nhydrazine.github.io
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
 # Author Settings
 author: David Freeman # add your name
 author-img: david-freeman.jpg # add your photo
