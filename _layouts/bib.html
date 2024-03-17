@@ -1,0 +1,10 @@
+---
+---
+<div>
+{% if entry.pmid %}
+<a target="_blank" rel="noopener noreferrer" href="https://pubmed.ncbi.nlm.nih.gov/{{ entry.pmid }}/">
+{% endif %}
+({{ entry.author | split: "," | first }} {{ entry.year }}){% if entry.pmid %}</a>{% endif %}
+&nbsp;{{ reference }}
+</div>
+
